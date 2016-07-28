@@ -70,6 +70,7 @@ public class App {
     }
 
     private void connect() {
+        // connect to docker redis database
         jedis = new Jedis("192.168.99.100", 6379);
     }
 
